@@ -1,0 +1,17 @@
+Source Project Output:
+
+        Starting..
+        Hello from manager
+        Here are my details:
+        name: The greatest manager, id: 0
+
+        Bye..
+        Hello from manager
+        Here are my details:
+        name: null, id: 3
+
+        Bye..
+        Finishing..
+
+
+
