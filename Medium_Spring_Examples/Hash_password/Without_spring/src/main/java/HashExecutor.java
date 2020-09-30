@@ -1,0 +1,14 @@
+public abstract class HashExecutor implements PasswordEncoder {
+    private String method;
+    private int strong;
+
+    public HashExecutor(String method, int strong) {
+        this.method = method;
+        this.strong = strong;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s, Encrypt method: %s", strong, method);
+    }
+}
